@@ -301,7 +301,7 @@ header > a{
     display: flex;
     flex-direction: column;
     row-gap: 31px;
-    padding: 0 133px;
+    padding: 0 398px;
 }
 ::placeholder {
     color: #FAFAFA;
