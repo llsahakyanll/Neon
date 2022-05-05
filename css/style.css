@@ -114,9 +114,13 @@ header > a{
     opacity: 0;
 }
 .section_home_active {
+    display: block;
     opacity: 1 !important;
     visibility: visible !important;
     transform: translate(0px, 0px) !important;
+}
+.section_home_display_none{
+    display: none !important;
 }
 .block__1__vieoDiv {
     position: absolute;
@@ -273,11 +277,14 @@ header > a{
     transform: translate(-120%, 0px);
     opacity: 0;
     padding-top: 70px !important;
-    display: flex;
     flex-direction: column;
     row-gap: 55px;
 }
+.section_contact_display_none{
+    display: none !important;
+}
 .section_contact_active {
+    display: flex !important;
     opacity: 1 !important;
     visibility: visible !important;
     transform: translate(0px, 0px) !important;
@@ -398,20 +405,20 @@ textarea {
   }
 /* -------| End Contact Us |------- */
 /*!-------| Footer |--------------- */
+.section_footer_display_none{
+    display: none;
+}
 .section_footer {
     border: 1px solid red;
-    top: 0px;
-    position: absolute;
     transition: .8s ease all 0s;
     visibility: hidden;
     transform: translate(-120%, 0px);
     opacity: 0;
-    padding-top: 145px !important;
-    display: flex;
     flex-direction: column;
     row-gap: 55px;
 }
 .section_footer_active {
+    display: flex;
     opacity: 1 !important;
     visibility: visible !important;
     transform: translate(0px, 0px) !important;
