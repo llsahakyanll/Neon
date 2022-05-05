@@ -272,7 +272,7 @@ header > a{
     visibility: hidden;
     transform: translate(-120%, 0px);
     opacity: 0;
-    padding-top: 145px !important;
+    padding-top: 70px !important;
     display: flex;
     flex-direction: column;
     row-gap: 55px;
@@ -397,7 +397,26 @@ textarea {
     transform: scale(1.1);
   }
 /* -------| End Contact Us |------- */
-
+/*!-------| Footer |--------------- */
+.section_footer {
+    border: 1px solid red;
+    top: 0px;
+    position: absolute;
+    transition: .8s ease all 0s;
+    visibility: hidden;
+    transform: translate(-120%, 0px);
+    opacity: 0;
+    padding-top: 145px !important;
+    display: flex;
+    flex-direction: column;
+    row-gap: 55px;
+}
+.section_footer_active {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: translate(0px, 0px) !important;
+}
+/*-------| End Footer |--------------- */
 /* !-------| End Main |------- */
 /* .classes_with_calc{
     width: calc(1920px - 530px) !important;
