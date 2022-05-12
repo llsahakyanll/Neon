@@ -1,4 +1,4 @@
-$('#home').on('click',function(){
+$('.home').on('click',function(){
     $('.section_home').removeClass('section_home_display_none');
     setTimeout(
         function() 
@@ -9,7 +9,7 @@ $('#home').on('click',function(){
             $('.section_footer').removeClass('section_footer_active');
         }, 25);
 })
-$('#contactus').on('click',function(){
+$('.contactus').on('click',function(){
     $('.section_contact').removeClass('section_contact_display_none')
     setTimeout(
         function() 
@@ -21,7 +21,7 @@ $('#contactus').on('click',function(){
             $('.section_home').addClass('section_home_display_none');
         }, 25);
 })
-$('#footer').on('click',function(){
+$('.footer').on('click',function(){
     $('.section_footer').removeClass('section_footer_display_none');
     setTimeout(
         function() 
